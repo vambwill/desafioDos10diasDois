@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+
+.loading-container {
+    height: 70vh;
+    width: 100vw;
+    background: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.spinner {
+    height: 14rem;
+    width: 14rem;
+    border: 20px solid rgb(62, 62, 63);
+    border-left: 20px solid rgb(56, 224, 224);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin infinite 1.5s linear;
+}
+
+.spinner-text {
+    position: absolute;
+    font: 14px;
+    color: rgb(56, 224, 224);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.click {
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.return {
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+@keyframes spin {
+    to {transform: rotate(360deg);}
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration-line: underline;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+}
+
